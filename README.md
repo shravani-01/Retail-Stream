@@ -123,6 +123,8 @@ Check data in Postgres:
 docker-compose exec postgres psql -U postgres -d retaildb
 SELECT * FROM retail_stream_data LIMIT 5;
 
+```
+
 ##  🧩 Tech Stack
 Component	Purpose
 Apache Kafka	Real-time data ingestion & buffering
