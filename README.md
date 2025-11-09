@@ -118,7 +118,7 @@ http://localhost:8080  (username: airflow / password: airflow)
 docker-compose exec producer python /producer/kafka_producer.py
 docker-compose exec producer python /producer/kafka_consumer.py
 
-Check data in Postgres:
+# Check data in Postgres:
 
 docker-compose exec postgres psql -U postgres -d retaildb
 SELECT * FROM retail_stream_data LIMIT 5;
